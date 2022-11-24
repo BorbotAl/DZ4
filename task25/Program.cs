@@ -10,7 +10,7 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите натуральное число В: ");
 int b = Convert.ToInt32(Console.ReadLine());
 
-int PowerAtoB (int num1, int num2)
+int PowerAtoB(int num1, int num2)
 {
     int power = 1;
     for (int i = 1; i <= num2; i++)
@@ -22,7 +22,7 @@ int PowerAtoB (int num1, int num2)
 
 if (b > 0)
 {
-int result = PowerAtoB(a, b);
-Console.WriteLine($"Число {a} в степени {b} --> {result}");
+    int result = PowerAtoB(a, b);
+    Console.WriteLine($"Число {a} в степени {b} --> {result}");
 }
 else Console.WriteLine("Число В должно быть натуральным");
